@@ -1,0 +1,49 @@
+############################################################################################################################
+
+========================================GIT COMMANDS===============================================
+
+// Use to initialize the folder(or)project in your local system with a VCS
+git init
+
+// To set your email address and username of Github. This will be required once at the startup.
+git config --global user.name <Github Name>                                // The Name must not be enclosed within the angular brackets
+git config --global user.email <Email>                                    // Email must not be enclosed within the angular brackets
+
+// To add a remote/connection to your repository on github.
+git remote add origin https://github.com/TheBrokeCoder104/TheFirstRepo.git
+// Replace with your github username
+
+// To check the status of your repository
+git status
+
+// To check a list of all the changes done to your repository
+git log
+
+// To add a file to be under 'surveillance' by git..    :/   <= this is an attempt at an emoji, please ignore
+git add .                     // Use to add all files
+git add file_name             // To add specific files
+
+// To commit your changes
+git commit -m "Your commit message"                     // Your message has to be inside double quotes.
+
+// To send all your local changes to github from your git
+git push origin master             // For the branch master
+git push                           // (in newer versions) pushes for all branches
+
+// To create a branch
+git branch branch-name
+
+// To change current branch to a specific branch
+git checkout target-branch
+
+//To check all available branches
+git branch
+
+// To get a repository from github to git
+git clone <Repo URL>                       //Not within the angular brackets.
+
+//To update your local repository with any changes made in the github version
+git pull
+
+
+--------------------------------------------------------Thanks for coming all the way here -------------------------------------------
